@@ -7,7 +7,7 @@ const Benefit = () => {
       <Title small className="max-w-[818px] text-center mx-auto mb-8">
         LỢI ÍCH KHI CHỦ DOANH NGHIỆP CÙNG ĐỘI NGŨ THAM GIA CHƯƠNG TRÌNH
       </Title>
-      <div className="flex flex-col items-center md:flex-row gap-x-8 gap-y-4">
+      <div className="grid grid-cols-2 md:grid-cols-4 gap-[20px] md:gap-x-[30px]">
         <BenefitItem></BenefitItem>
         <BenefitItem
           icon="/icons/benefit-2.png"
@@ -31,8 +31,12 @@ const BenefitItem = ({
   content = "Lập Kế hoạch hành động cho Doanh nghiệp Quý IV/2022.",
 }) => {
   return (
-    <div className="flex flex-col items-center gap-y-5 benefit-item w-full min-h-[296px] rounded-[10px] border border-solid border-[#D5D5D5] py-[32px] px-[34px]">
-      <img srcSet={`${icon} 2x`} alt="" />
+    <div className="flex flex-col items-center gap-y-5 benefit-item w-full md:min-h-[296px] rounded-[10px] border border-solid border-[#D5D5D5] text-justify p-[15px] md:py-[32px] md:px-[34px]">
+      <img
+        srcSet={`${icon} 2x`}
+        alt=""
+        className="w-[40px] h-[40px] md:w-[77px] md:h-[77px]"
+      />
       <p className="font-semibold text-white leading-[1.6]">{content}</p>
     </div>
   );

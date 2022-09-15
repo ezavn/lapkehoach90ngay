@@ -1,4 +1,5 @@
 import React from "react";
+import Form from "./common/Form";
 import Form2 from "./common/Form2";
 
 const Register = () => {
@@ -9,10 +10,10 @@ const Register = () => {
     >
       <div className="flex md:flex-row flex-col items-start justify-between page-container md:py-[70px] py-[50px]">
         <div className="mx-auto md:mx-0">
-          <div className="h-[72px] bg-secondary inline-flex text-[18px] md:text-4xl text-white items-center justify-center px-[15px] md:px-8 md:mb-[45px] mb-[20px]">
+          <div className="h-[72px] bg-secondary text-[18px] md:text-4xl text-white items-center justify-center px-[15px] md:px-8 md:mb-[45px] mb-[20px] hidden md:inline-flex">
             CHƯƠNG TRÌNH GROWTHCLUB
           </div>
-          <h2 className="font-bold text-[28px] md:text-[64px] text-white leading-[1.5] mb-[30px] md:mb-0">
+          <h2 className="md:block hidden font-bold text-[28px] md:text-[64px] text-white leading-[1.5] mb-[30px] md:mb-0">
             GẮN KẾT ĐỘI NGŨ <br />{" "}
             <span className="ml-[40px] md:ml-[140px]">BỨT PHÁ VỀ ĐÍCH</span>
           </h2>
@@ -23,6 +24,7 @@ const Register = () => {
             <span className="block md:text-[40px] text-[28px]">GROWTHCLUB</span>
           </h3>
           <Form2></Form2>
+          {/* <Form></Form> */}
         </div>
       </div>
     </section>

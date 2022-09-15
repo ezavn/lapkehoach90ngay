@@ -5,10 +5,10 @@ import Title from "./common/Title";
 
 const Participants = () => {
   return (
-    <section className="participants bg-[url('../public/images/participants-mb.png')] md:bg-[url('../public/images/participants.png')] h-auto md:h-[630px] w-full bg-center bg-cover bg-no-repeat md:mb-[75px] mb-[40px] py-[40px] md:py-[60px] relative">
+    <section className="participants bg-[url('../public/images/participants-mb.png')] md:bg-[url('../public/images/participants.png')] h-auto md:h-[630px] w-full bg-center bg-cover bg-no-repeat md:mb-[75px] mb-[40px] pt-[15px] pb-[60px] md:py-[60px] relative">
       <div className="page-container">
-        <div className="flex flex-col items-start justify-between md:flex-row">
-          <div className="mb-[20px] md:mb-0">
+        <div className="flex flex-col md:items-start justify-between md:flex-row">
+          <div className="mb-[10px] md:mb-0">
             <Title small className="mb-[10px]">
               ĐỐI TƯỢNG THAM GIA
             </Title>
@@ -36,7 +36,7 @@ const Participants = () => {
               Chủ nhật, ngày 25/09/2022 <br />
               Địa điểm: ChamPa Island Nha Trang - Sảnh Lakshmi,
             </p>
-            <p className="mt-2 text-lg font-bold text-secondary">
+            <p className="md:mt-2 text-lg font-bold text-secondary">
               Số 304, Đường 2/4, Nha Trang
             </p>
           </div>

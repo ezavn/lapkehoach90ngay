@@ -181,9 +181,9 @@ const Form2 = () => {
             onChange={handleChange}
           >
             <option className="text-[#cdcdcd]">Loại vé *</option>
-            <option value="1ticket">Mua 1 vé</option>
-            <option value="3tickets">Mua 3 vé</option>
-            <option value="5tickets">Mua 5 vé</option>
+            <option value="1 vé">Mua 1 vé</option>
+            <option value="3 vé">Mua 3 vé</option>
+            <option value="5 vé">Mua 5 vé</option>
           </select>
           {error.option && <p className="mt-2 text-black">{error.option[0]}</p>}
         </div>

@@ -5,10 +5,10 @@ const Ticket = () => {
   return (
     <section className="ticket page-container md:mb-[75px] mb-[40px]">
       <div className="text-center">
-        <Title>NHÀ HUẤN LUYỆN CỦA CHƯƠNG TRÌNH</Title>
+        <Title>KHOẢN ĐẦU TƯ CHO CHƯƠNG TRÌNH</Title>
         <p className="font-medium mb-[35px]">
-          Chúng tôi sẽ mang lại giá trị cho khoảng thời gian mà khách hàng đã
-          đầu tư
+          Chúng tôi sẽ mang lại giá trị cho khoản thời gian mà khách hàng đã đầu
+          tư
         </p>
       </div>
       <div className="flex md:flex-row flex-col gap-y-[20px] gap-x-[80px] md:mb-[50px] mb-[30px]">
