@@ -6,7 +6,7 @@ const Register = () => {
   return (
     <section
       id="form_register"
-      className="register  bg-[url('../public/images/bg-form.png')] bg-center bg-cover bg-no-repeat"
+      className="register bg-[url('../public/images/bg-form-mb.png')] md:bg-[url('../public/images/bg-form.png')] bg-center bg-cover bg-no-repeat"
     >
       <div className="flex md:flex-row flex-col items-start justify-between page-container md:py-[70px] py-[50px]">
         <div className="mx-auto md:mx-0">
