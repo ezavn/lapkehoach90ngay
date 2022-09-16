@@ -29,7 +29,7 @@ const Participants = () => {
           </div>
           <div className="justify-between block text-left lg:text-right lg:block md:flex">
             <div>
-              <h3 className="mb-2 text-xl font-bold text-primary">
+              <h3 className="mb-2 text-[20px] font-bold text-primary">
                 HÌNH THỨC TỔ CHỨC OFFLINE
               </h3>
               <p className="font-bold leading-[1.6] ">
@@ -37,7 +37,7 @@ const Participants = () => {
                 Chủ nhật, ngày 25/09/2022 <br />
                 Địa điểm: ChamPa Island Nha Trang - Sảnh Lakshmi,
               </p>
-              <p className="text-lg font-bold lg:mt-2 text-secondary">
+              <p className="text-[18px] font-bold lg:mt-2 text-secondary">
                 Số 304, Đường 2/4, Nha Trang
               </p>
             </div>

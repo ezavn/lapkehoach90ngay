@@ -13,11 +13,11 @@ const Organizer = () => {
             ĐƠN VỊ TỔ CHỨC
           </Title>
           <div className="md:mb-[20px]">
-            <h3 className="text-center md:text-left font-semibold text-4xl text-[#E6435C] mb-[20px] md:mb-[35px]">
+            <h3 className="text-center md:text-left font-semibold text-[36px] text-[#E6435C] mb-[20px] md:mb-[35px]">
               ACTIONCOACH CHT FIRM
             </h3>
             <p className="font-medium text-justify">
-              <span className="text-lg font-bold">
+              <span className="text-[18px] font-bold">
                 Với tầm nhìn “Tạo ra một thế giới thịnh vượng thông qua hoạt
                 động tái đào tạo doanh nghiệp.”
               </span>{" "}

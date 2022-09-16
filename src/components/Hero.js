@@ -5,16 +5,16 @@ const Hero = () => {
     // pt-[20vh] md:pt-[22vh] lg:pt-[25vh]
     <section className="hero w-full h-[680px] md:h-[760px] lg:h-[780px] relative  bg-[url('../public/images/hero-mb.png')] md:bg-[url('../public/images/hero.png')]  bg-center bg-cover bg-no-repeat md:mb-[50px] lg:mb-[165px] mb-[40px] pt-[120px] md:pt-[160px] lg:pt-[120px]">
       <div className="text-center md:text-right content page-container">
-        <p className="mb-[10px] md:mb-5  md:text-2xl lg:text-4xl text-[18px] font-bold text-white uppercase">
+        <p className="mb-[10px] md:mb-5  md:text-[24px] lg:text-[36px] text-[18px] font-bold text-white uppercase">
           CHƯƠNG TRÌNH GROWTHCLUB
         </p>
         <h1 className="mb-[5px] font-bold text-[50px] md:text-[68px] lg:text-[96px] text-secondary uppercase leading-[1] md:mb-3">
           LẬP KẾ HOẠCH <br className="hidden md:block lg:hidden" /> 90 NGÀY
         </h1>
-        <p className="mb-[25px] md:text-2xl lg:text-4xl text-[18px] font-bold text-white uppercase md:mb-5">
+        <p className="mb-[25px] md:text-[24px] lg:text-[36px] text-[18px] font-bold text-white uppercase md:mb-5">
           GẮN KẾT ĐỘI NGŨ - BỨT PHÁ VỀ ĐÍCH
         </p>
-        <p className="md:text-[14px] lg:text-base font-semibold text-white leading-[1.6]">
+        <p className="md:text-[14px] lg:text-[16px] font-semibold text-white leading-[1.6]">
           <span className="md:block">
             Thời gian: 08:00 - 18:00 | <br className="block md:hidden" /> Chủ
             nhật, ngày 25/09/2022

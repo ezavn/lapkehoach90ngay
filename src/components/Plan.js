@@ -26,7 +26,7 @@ const Plan = () => {
               GROWTHCLUB
             </span>
             <Title>LẬP KẾ HOẠCH 90 NGÀY</Title>
-            <span className="block md:text-2xl text-[20px] font-semibold leading-[1.6]">
+            <span className="block md:text-[24px] text-[20px] font-semibold leading-[1.6]">
               "GẮN KẾT ĐỘI NGŨ - BỨT PHÁ VỀ ĐÍCH"
             </span>
           </div>

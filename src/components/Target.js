@@ -11,7 +11,7 @@ const Target = () => {
             doanh nghiệp của mình sau 90 ngày tới,
             <br className="hidden lg:block" />
             cũng như có được một{" "}
-            <span className="text-[20px] md:text-2xl text-secondary leading-[1.6]">
+            <span className="text-[20px] md:text-[24px] text-secondary leading-[1.6]">
               BẢN KẾ HOẠCH ĐỂ ĐẠT ĐƯỢC MỤC TIÊU
             </span>{" "}
             đề ra.

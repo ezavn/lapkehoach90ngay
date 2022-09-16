@@ -106,7 +106,7 @@ const ContentItem = ({
   }
   return (
     <div
-      className={`text-[10px] md:text-[12px] lg:text-base flex items-center text-justify w-full py-[12px] md:py-[15px] md:px-[15px] px-[12px]  lg:h-[76px] ${bgColor}`}
+      className={`text-[10px] md:text-[12px] lg:text-[16px] flex items-center text-justify w-full py-[12px] md:py-[15px] md:px-[15px] px-[12px]  lg:h-[76px] ${bgColor}`}
     >
       <span className={`font-bold ${textColor}`}>{children}</span>
     </div>

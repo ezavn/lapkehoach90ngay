@@ -20,7 +20,7 @@ const Footer = () => {
           </p>
         </div>
         <div>
-          <h3 className="text-2xl font-semibold mb-[20px] md:mb-[65px]">
+          <h3 className="text-[24px] font-semibold mb-[20px] md:mb-[65px]">
             THÔNG TIN LIÊN HỆ
           </h3>
           <div>
@@ -41,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h3 className="text-2xl font-semibold mb-[20px] md:mb-[65px]">
+          <h3 className="text-[24px] font-semibold mb-[20px] md:mb-[65px]">
             FANPAGE CBD FIRM
           </h3>
           <a

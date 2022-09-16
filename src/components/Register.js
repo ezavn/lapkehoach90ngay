@@ -10,7 +10,7 @@ const Register = () => {
     >
       <div className="flex lg:flex-row flex-col items-center lg:items-start lg:justify-between page-container md:py-[70px] py-[50px]">
         <div className="mx-auto md:mx-0">
-          <div className="h-[72px] bg-secondary text-[18px] md:text-4xl text-white items-center justify-center px-[15px] md:px-8 md:mb-[45px] mb-[20px] hidden lg:inline-flex">
+          <div className="h-[72px] bg-secondary text-[18px] md:text-[36px] text-white items-center justify-center px-[15px] md:px-8 md:mb-[45px] mb-[20px] hidden lg:inline-flex">
             CHƯƠNG TRÌNH GROWTHCLUB
           </div>
           <h2 className="lg:block hidden font-bold text-[28px] md:text-[64px] text-white leading-[1.5] mb-[30px] md:mb-0">
@@ -19,7 +19,7 @@ const Register = () => {
           </h2>
         </div>
         <div className="form-register w-auto md:w-[446px] rounded-[10px] p-[25px_12px_30px_12px]  md:p-[45px_32px_50px_32px]">
-          <h3 className="text-base mb-[10px] md:mb-[20px] md:text-xl font-bold text-white leading-[1.5] text-center">
+          <h3 className="text-[16px] mb-[10px] md:mb-[20px] md:text-[20px] font-bold text-white leading-[1.5] text-center">
             Đừng bỏ lỡ cơ hội Lập kế hoạch Quý IV/2022 để BỨT PHÁ chỉ vì sự đắn
             đo của Anh/Chị
           </h3>
