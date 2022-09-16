@@ -5,12 +5,14 @@ const Organizer = () => {
   return (
     <section className="organizer mb-[40px] md:mb-0">
       <div className="flex md:flex-row flex-col items-center page-container gap-x-[40px]">
-        <img src="/images/organizer.png" alt="" />
-        <div className="mt-[30px] md:mt-0">
+        <div className="flex-1">
+          <img src="/images/organizer.png" alt="" />
+        </div>
+        <div className="flex-1 mt-[30px] md:mt-0">
           <Title className="md:mb-[40px] text-center md:text-left mb-[10px]">
             ĐƠN VỊ TỔ CHỨC
           </Title>
-          <div>
+          <div className="md:mb-[20px]">
             <h3 className="text-center md:text-left font-semibold text-4xl text-[#E6435C] mb-[20px] md:mb-[35px]">
               ACTIONCOACH CHT FIRM
             </h3>

@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   return (
     <footer className="footer bg-[#1E1E1E] md:pt-[75px] pt-[40px] pb-[30px]">
-      <div className="grid grid-cols-1 gap-y-[30px] md:grid-cols-3 page-container text-white md:px-[80px]">
+      <div className="grid grid-cols-1 gap-[30px] md:grid-cols-2 lg:grid-cols-3 page-container text-white md:px-[80px]">
         <div>
           <a href="/" className="inline-block w-full max-w-[249px] mb-[20px]">
             <img
@@ -36,7 +36,7 @@ const Footer = () => {
             </div>
             <div className="flex gap-x-[14px] items-center justify-start mb-[15px] md:mb-[25px]">
               <img srcSet="/icons/phone.png 2x" alt="" />
-              <a href="tel:(+297) 123 456 789">(+297) 123 456 789</a>
+              <a href="tel:(+297) 123 456 789">091 390 38 33</a>
             </div>
           </div>
         </div>
@@ -44,15 +44,12 @@ const Footer = () => {
           <h3 className="text-2xl font-semibold mb-[20px] md:mb-[65px]">
             FANPAGE CBD FIRM
           </h3>
-          <img src="/images/footer-1.png" alt="" />
           <a
             href="https://www.facebook.com/ActionCoachCHTFirm/"
             target="_blank"
             rel="noreferrer"
-            className="mt-[30px] md:mt-[50px] inline-block md:ml-[15px]"
           >
-            https://www.facebook.com/
-            <span className="block">ActionCoachCHTFirm/</span>
+            <img src="/images/footer-1.png" alt="" />
           </a>
         </div>
       </div>

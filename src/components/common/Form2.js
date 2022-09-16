@@ -103,7 +103,7 @@ const Form2 = () => {
               type="text"
               id="gender"
               name="gender"
-              placeholder="(Ông/Bà)*"
+              placeholder="(Ông/Bà)"
               value={state.gender}
               onChange={handleChange}
             />
@@ -117,7 +117,7 @@ const Form2 = () => {
               type="text"
               id="name"
               name="name"
-              placeholder="Họ và tên *"
+              placeholder="Họ Tên"
               value={state.name}
               onChange={handleChange}
             />
@@ -129,7 +129,7 @@ const Form2 = () => {
             className="px-[17px] rounded-[5px] bg-white outline-none w-full placeholder:text-sm placeholder:text-black h-[50px]"
             id="email"
             name="email"
-            placeholder="email@gmail.com *"
+            placeholder="Email"
             type="email"
             value={state.email}
             onChange={handleChange}
@@ -142,7 +142,7 @@ const Form2 = () => {
             className="px-[17px] rounded-[5px] bg-white outline-none w-full placeholder:text-sm placeholder:text-black h-[50px]"
             id="phone"
             name="phone"
-            placeholder="Số điện thoại (VD: 0900xxxxxx) *"
+            placeholder="Số điện thoại"
             type="phone"
             value={state.phone}
             onChange={handleChange}
@@ -175,12 +175,12 @@ const Form2 = () => {
         </div>
         <div>
           <select
-            className="px-[17px] rounded-[5px] bg-white outline-none w-full placeholder:text-sm placeholder:text-black h-[50px]"
+            className="text-sm px-[17px] rounded-[5px] bg-white outline-none w-full placeholder:text-sm placeholder:text-black h-[50px]"
             id="option"
             name="option"
             onChange={handleChange}
           >
-            <option className="text-[#cdcdcd]">Loại vé *</option>
+            <option className="text-[#cdcdcd]">Loại vé</option>
             <option value="1 vé">Mua 1 vé</option>
             <option value="3 vé">Mua 3 vé</option>
             <option value="5 vé">Mua 5 vé</option>

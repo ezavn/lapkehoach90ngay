@@ -12,8 +12,7 @@
     box-sizing: border-box;
   }
   body {
-    @apply bg-white font-barlow text-black md:text-base;
-    font-size: 12px;
+    @apply bg-white font-barlow text-black text-xs md:text-base;
   }
 }
 
@@ -91,11 +90,11 @@
             margin-bottom: 0 !important;
           }
           h4 {
-            font-size: 16px;
+            font-size: 14px;
             line-height: 1;
             margin-bottom: 5px;
             span {
-              font-size: 28px;
+              font-size: 20px;
             }
           }
         }
@@ -108,7 +107,7 @@
               height: 30px;
             }
             h5 {
-              font-size: 18px;
+              font-size: 16px;
             }
             p {
               line-height: 1.8;

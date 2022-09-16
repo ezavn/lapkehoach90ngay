@@ -5,10 +5,10 @@ import Title from "./common/Title";
 
 const Participants = () => {
   return (
-    <section className="participants bg-[url('../public/images/participants-mb.png')] md:bg-[url('../public/images/participants.png')] h-auto md:h-[630px] w-full bg-center bg-cover bg-no-repeat md:mb-[75px] mb-[40px] pt-[15px] pb-[60px] md:py-[60px] relative">
+    <section className="participants bg-[url('../public/images/bg.png')] lg:bg-[url('../public/images/participants.png')] h-auto w-full bg-center bg-cover bg-no-repeat md:mb-[75px] mb-[40px] pt-[15px] pb-[60px] md:pt-[20px] lg:py-[60px] relative">
       <div className="page-container">
-        <div className="flex flex-col md:items-start justify-between md:flex-row">
-          <div className="mb-[10px] md:mb-0">
+        <div className="flex flex-col justify-between lg:items-start lg:flex-row">
+          <div className="mb-[10px] lg:mb-0">
             <Title small className="mb-[10px]">
               ĐỐI TƯỢNG THAM GIA
             </Title>
@@ -27,21 +27,30 @@ const Participants = () => {
               <p className="font-semibold ml-[10px] ">Đội ngũ nhân sự</p>
             </div>
           </div>
-          <div className="text-right">
-            <h3 className="mb-2 text-xl font-bold text-primary">
-              HÌNH THỨC TỔ CHỨC OFFLINE
-            </h3>
-            <p className="font-bold leading-[1.6] ">
-              Thời gian: 08:00 - 18:00 <br />
-              Chủ nhật, ngày 25/09/2022 <br />
-              Địa điểm: ChamPa Island Nha Trang - Sảnh Lakshmi,
-            </p>
-            <p className="md:mt-2 text-lg font-bold text-secondary">
-              Số 304, Đường 2/4, Nha Trang
-            </p>
+          <div className="justify-between block text-left lg:text-right lg:block md:flex">
+            <div>
+              <h3 className="mb-2 text-xl font-bold text-primary">
+                HÌNH THỨC TỔ CHỨC OFFLINE
+              </h3>
+              <p className="font-bold leading-[1.6] ">
+                Thời gian: 08:00 - 18:00 <br />
+                Chủ nhật, ngày 25/09/2022 <br />
+                Địa điểm: ChamPa Island Nha Trang - Sảnh Lakshmi,
+              </p>
+              <p className="text-lg font-bold lg:mt-2 text-secondary">
+                Số 304, Đường 2/4, Nha Trang
+              </p>
+            </div>
+            <div className="mt-4 text-center md:text-left lg:text-right mr-0 md:mr-[20px] lg:mr-0">
+              <img
+                src="/images/qr-code.png"
+                className="w-[140px] h-[140px] inline-block"
+                alt=""
+              />
+            </div>
           </div>
         </div>
-        <div className="md:mt-[160px] mt-[50px]">
+        <div className="md:mt-[50px] mt-[20px]">
           <Countdown></Countdown>
           <div className="text-center md:mt-[50px] mt-[20px]">
             <Button></Button>

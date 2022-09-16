@@ -4,7 +4,14 @@ import Title from "./common/Title";
 const Plan = () => {
   return (
     <section className="plan page-container md:mb-[75px] mb-[40px]">
-      <div className="intro flex gap-y-[20px] gap-x-[50px] md:flex-row flex-col">
+      <div className="intro flex gap-y-[20px] gap-x-[50px] lg:flex-row flex-col">
+        <div className="flex lg:hidden leading-[1.6] mx-[18px] slogan page-container h-auto px-[18px] py-[27px]  rounded-[10px] shadow-[0px_4px_10px_rgba(0,_0,_0,_0.25);] items-center justify-center">
+          <h2 className="text-center  font-semibold text-[18px]  text-white">
+            KINH DOANH MÀ{" "}
+            <span className="text-secondary">KHÔNG LẬP KẾ HOẠCH</span> LÀ LẬP KẾ
+            HOẠCH CHO SỰ <span className="text-secondary">THẤT BẠI</span>
+          </h2>
+        </div>
         <div className="flex-1">
           <img
             src="/images/plan.png"
@@ -19,7 +26,7 @@ const Plan = () => {
               GROWTHCLUB
             </span>
             <Title>LẬP KẾ HOẠCH 90 NGÀY</Title>
-            <span className="block md:text-2xl text-[20px] font-semibold">
+            <span className="block md:text-2xl text-[20px] font-semibold leading-[1.6]">
               "GẮN KẾT ĐỘI NGŨ - BỨT PHÁ VỀ ĐÍCH"
             </span>
           </div>

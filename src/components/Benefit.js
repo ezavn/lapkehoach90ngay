@@ -7,7 +7,7 @@ const Benefit = () => {
       <Title small className="max-w-[818px] text-center mx-auto mb-8">
         LỢI ÍCH KHI CHỦ DOANH NGHIỆP CÙNG ĐỘI NGŨ THAM GIA CHƯƠNG TRÌNH
       </Title>
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-[20px] md:gap-x-[30px]">
+      <div className="grid grid-cols-2 lg:grid-cols-4 gap-[20px] lg:gap-x-[30px]">
         <BenefitItem></BenefitItem>
         <BenefitItem
           icon="/icons/benefit-2.png"

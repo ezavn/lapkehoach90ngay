@@ -23,7 +23,7 @@ const Ticket = () => {
         </div>
       </div>
       <div className="text-center">
-        <img src="/images/ticket-4.png" className="inline-block" alt="" />
+        <img src="/images/bank.png" className="inline-block" alt="" />
       </div>
     </section>
   );

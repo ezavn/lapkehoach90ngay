@@ -16,7 +16,13 @@ const Slide = () => {
     <Slider {...settings} className="slide">
       <div>
         <div className="slide-item">
-          <img src="/images/coach-1.png" alt="" />
+          <div className="self-center md:w-[330px] md:h-[460px] w-[260px] h-[370px]">
+            <img
+              src="/images/coach-1.png"
+              className="object-cover w-full h-full"
+              alt=""
+            />
+          </div>
           <div className="slide-content">
             <div className="top">
               <span>Ông</span>
@@ -61,7 +67,13 @@ const Slide = () => {
       </div>
       <div>
         <div className="slide-item">
-          <img src="/images/coach-2.png" alt="" />
+          <div className="self-center md:w-[330px] md:h-[460px] w-[260px] h-[370px]">
+            <img
+              src="/images/coach-2.png"
+              className="object-cover w-full h-full"
+              alt=""
+            />
+          </div>
           <div className="slide-content">
             <div className="top">
               <span>Ông</span>
@@ -95,7 +107,13 @@ const Slide = () => {
       </div>
       <div>
         <div className="slide-item">
-          <img src="/images/coach-3.png" alt="" />
+          <div className="self-center md:w-[330px] md:h-[460px] w-[260px] h-[370px]">
+            <img
+              src="/images/coach-3.png"
+              className="object-cover w-full h-full"
+              alt=""
+            />
+          </div>
           <div className="slide-content">
             <div className="top">
               <span>COACH</span>
@@ -127,7 +145,13 @@ const Slide = () => {
       </div>
       <div>
         <div className="slide-item">
-          <img src="/images/coach-4.png" alt="" />
+          <div className="self-center md:w-[330px] md:h-[460px] w-[260px] h-[370px]">
+            <img
+              src="/images/coach-4.png"
+              className="object-cover w-full h-full"
+              alt=""
+            />
+          </div>
           <div className="slide-content">
             <div className="top">
               <span>COACH</span>
@@ -157,7 +181,13 @@ const Slide = () => {
       </div>
       <div>
         <div className="slide-item">
-          <img src="/images/coach-5.png" alt="" />
+          <div className="self-center md:w-[330px] md:h-[460px] w-[260px] h-[370px]">
+            <img
+              src="/images/coach-5.png"
+              className="object-cover w-full h-full"
+              alt=""
+            />
+          </div>
           <div className="slide-content">
             <div className="top">
               <span>COACH</span>
@@ -197,7 +227,13 @@ const Slide = () => {
       </div>
       <div>
         <div className="slide-item">
-          <img src="/images/coach-6.png" alt="" />
+          <div className="self-center md:w-[330px] md:h-[460px] w-[260px] h-[370px]">
+            <img
+              src="/images/coach-6.png"
+              className="object-cover w-full h-full"
+              alt=""
+            />
+          </div>
           <div className="slide-content">
             <div className="top">
               <span>COACH</span>
