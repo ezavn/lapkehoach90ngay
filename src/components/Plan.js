@@ -12,12 +12,8 @@ const Plan = () => {
             HOẠCH CHO SỰ <span className="text-secondary">THẤT BẠI</span>
           </h2>
         </div>
-        <div className="flex-1">
-          <img
-            src="/images/plan.png"
-            className="object-cover w-full h-full"
-            alt=""
-          />
+        <div className="flex items-center justify-center flex-1">
+          <video src="/videos/benefit-video.mp4" width="100%" controls></video>
         </div>
         <div className="flex-1">
           <div className="md:mb-5 mb-[10px]">
