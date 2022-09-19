@@ -43,7 +43,7 @@ const Participants = () => {
             </div>
             <div className="mt-4 text-center md:text-left lg:text-right mr-0 md:mr-[20px] lg:mr-0">
               <img
-                src="/images/qr-code.png"
+                src="/images/qr-code.jpg"
                 className="w-[140px] h-[140px] inline-block"
                 alt=""
               />

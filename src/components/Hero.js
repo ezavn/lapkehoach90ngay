@@ -29,7 +29,7 @@ const Hero = () => {
         </p>
         <div className="text-center mt-7 md:mt-4 md:text-right">
           <img
-            src="/images/qr-code.png"
+            src="/images/qr-code.jpg"
             className="w-[140px] h-[140px] inline-block"
             alt=""
           />
