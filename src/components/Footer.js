@@ -44,13 +44,16 @@ const Footer = () => {
           <h3 className="text-[24px] font-semibold mb-[20px] md:mb-[65px]">
             FANPAGE CHT FIRM
           </h3>
-          <a
-            href="https://www.facebook.com/ActionCoachCHTFirm/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img src="/images/footer-1.png" alt="" />
-          </a>
+          <div>
+            <iframe
+              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FActionCoachCHTFirm%2F&tabs&width=280&height=180&small_header=false&adapt_container_width=false&hide_cover=false&show_facepile=false&appId"
+              width={280}
+              height={180}
+              frameBorder={0}
+              allowFullScreen
+              allow="autoplay; clipboard-write; encrypted-media; picture-in-picture;"
+            />
+          </div>
         </div>
       </div>
     </footer>

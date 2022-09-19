@@ -220,3 +220,12 @@ input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
     right: -10px !important;
   }
 }
+
+@media (max-width: 1024px) {
+  .video {
+    width: 100%;
+  }
+  .slick-arrow.slick-next {
+    right: 10px !important;
+  }
+}
