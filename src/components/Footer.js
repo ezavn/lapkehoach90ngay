@@ -36,13 +36,13 @@ const Footer = () => {
             </div>
             <div className="flex gap-x-[14px] items-center justify-start mb-[15px] md:mb-[25px]">
               <img srcSet="/icons/phone.png 2x" alt="" />
-              <a href="tel:(+297) 123 456 789">091 390 38 33</a>
+              <a href="tel:091 390 38 33">091 390 38 33</a>
             </div>
           </div>
         </div>
         <div>
           <h3 className="text-[24px] font-semibold mb-[20px] md:mb-[65px]">
-            FANPAGE CBD FIRM
+            FANPAGE CHT FIRM
           </h3>
           <a
             href="https://www.facebook.com/ActionCoachCHTFirm/"
